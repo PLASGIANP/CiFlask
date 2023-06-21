@@ -45,7 +45,7 @@ Una volta fatto ciò ti verrà chiesto di:
 2. Scegli il cifrario da usare tra: **Cesare**,**Sostituzione** o **Vigenere**:
 3. Alla fine inserisci il testo da cifrare(decifrare) con la sua chiave personale ed è pronto 
 
-## Attenzione
+## Attenzione!!
 
 Questo programma apre(di default) la porta 5000 del tuo computer ma lasciando così come è il codice nessuno apparte il tuo computer potrà vederlo.
 Se hai intenzione di far vedere anche alle altre persone presenti nella **tua rete** allora dovrai eseguire:
