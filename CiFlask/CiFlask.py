@@ -56,6 +56,7 @@ def enSubstitution():
     if request.method == 'POST':
         words = request.form['words']
         key = request.form['key']
+        key = key.lower()
         key = my.remove(key)
         key = my.alphabet_complete(key)
         encrypted_words = my.substitution_encrypt(words, key)
@@ -93,6 +94,7 @@ def deSubstitution():
     if request.method == 'POST':
         words = request.form['words']
         key = request.form['key']
+        key = key.lower()
         key = my.remove(key)
         key = my.alphabet_complete(key)
         encrypted_words = my.substitution_decrypt(words, key)
