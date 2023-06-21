@@ -1,0 +1,51 @@
+<title>Cifratura di Cesare</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #ciphertext {
+            height: 100px;
+        }
+    </style>
+<form method="post">
+    <label for="words">Inserisci il testo da cifrare:</label>
+    <input type="text" id="words" name="words">
+    <label for="words">Inserisci lo spotamento:</label>
+    <input type="number" min="0" id="shift" name="shift">
+    <br>
+    <button type="submit">Invia</button>
+    <h3>Risultato:</h3>
+    <textarea id="ciphertext" name="ciphertext" rows="4" cols="50" readonly>{{ encrypted_words }}</textarea>
+</form>

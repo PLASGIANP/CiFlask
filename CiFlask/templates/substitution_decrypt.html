@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifratura a Sostituzione</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 400px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #ciphertext {
+            height: 100px;
+        }
+    </style>
+<h1>Cifratura a Sostituzione</h1>
+
+    <form method="POST">
+        <label for="words">Testo da Cifrare:</label><br>
+        <textarea id="words" name="words" rows="4" cols="50"></textarea>
+
+        <label for="key">Chiave di Cifratura:</label><br>
+        <input type="text" id="key" name="key">
+
+        <input type="submit" value="Cifra"><br><br>
+
+        <h3>Risultato:</h3>
+        <textarea id="ciphertext" name="ciphertext" rows="4" cols="50" readonly>{{ encrypted_words }}</textarea>
+    </form>
