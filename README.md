@@ -14,7 +14,7 @@ Per usare questo programma hai bisogno di:
 1. Clona la repository:
 ```bash
    git clone https://github.com/PLASGIANP/CiFlask.git
-   cd CiFlask
+   cd CiFlask/CiFlask
    ```
 2. Installa i requisiti:
 
