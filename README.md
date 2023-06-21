@@ -6,8 +6,8 @@ Questa applicazione consente di cifrare qualsiasi testo tu desideri scegliendo u
 
 Per usare questo programma hai bisogno di:
 
-- **MacO or Linux**
-- **Python** (version 3.8 or higher).
+- **Linux**
+- **Python** (version 3.8 or più alti).
 
 ## Installazione
 
@@ -17,11 +17,6 @@ Per usare questo programma hai bisogno di:
    cd CiFlask/CiFlask
    ```
 2. Installa i requisiti:
-
-- **MacOs**
-```zsh
-   pip3 install -r requirements.txt
-   ```
 
 - **Linux**
 ```bash
