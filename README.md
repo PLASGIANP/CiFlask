@@ -49,8 +49,6 @@ Follow the on-screen options to enter in the desired menu.
 
 ## Contributing
 
-Contributions are accepted, if you find any bugs or suggestions, please open an issue or submit a pull request.
+Sono ben contributi di risoluzione di eventuali problemi, se trovi bug o hai da condividere dei suggerimenti, per favore apri una segnalazione o invia una richiesta di pull.
 
-## License
 
-This project is licensed under the [MIT License](https://mit-license.org).
