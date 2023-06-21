@@ -7,7 +7,7 @@ Questa applicazione consente di cifrare qualsiasi testo tu desideri scegliendo u
 Per usare questo programma hai bisogno di:
 
 - **MacO or Linux**
-- **Python** (version 3.6 or higher).
+- **Python** (version 3.8 or higher).
 
 ## Installazione
 
