@@ -28,11 +28,11 @@ Per usare questo programma hai bisogno di:
 To run CiFlask esegui da terminale:
 - **MacOs**
 ```zsh
-   flask --app CiFlask.py run
+   python3 CiFlask.py
    ```
 - **Linux**
 ```bash
-   flask --app CiFlask.py run
+   python3 CiFlask.py
    ```
 Sarà necessario (una volta eseguito il programma) aprire il tuo browser e scrivere nella barra URL quanto segue "127.0.0.1:5000".
 Una volta fatto ciò ti verrà chiesto di:
