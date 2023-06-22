@@ -42,8 +42,8 @@ Una volta fatto ciò ti verrà chiesto di:
 
 ## Attenzione!!
 
-Questo programma apre(di default) la porta 5000 del tuo computer ma lasciando così come è il codice nessuno apparte il tuo computer potrà vederlo.
-Se hai intenzione di far vedere anche alle altre persone presenti nella **tua rete** allora dovrai eseguire:
+Questo programma apre(di default) la porta 5000 del tuo computer, ma eseguendo il codice così come è nessuno a parte il tuo computer potrà vederlo.
+Se hai intenzione di far vedere anche alle altre persone presenti nella **tua rete** il programma allora dovrai eseguire:
 ```bash
    flask --app Test8.py run --host 0.0.0.0
    ```
