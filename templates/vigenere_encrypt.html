@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cifratura di Vigenère</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            margin: 0 auto;
+            width: 400px;
+        }
+
+        form input[type="text"] {
+            text-transform: lowercase;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 5px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            display: block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #ciphertext {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cifratura di Vigenère</h1>
+
+    <form action="/encrypt/vigenere" method="POST">
+        <label for="words">Testo in Chiaro:</label>
+        <textarea id="words"  name="words" rows="4" cols="50"></textarea>
+
+        <label for="key">Chiave di Cifratura:</label>
+        <input type="text" id="key" name="key">
+
+        <input type="submit" value="Cifra">
+    </form>
+
+    <h3>Risultato:</h3>
+    <textarea id="ciphertext" name="ciphertext" rows="4" cols="50" readonly>{{ encrypted_words }}</textarea>
+</body>
+</html>
